@@ -1,0 +1,64 @@
+nohup: ignoring input
+[0mGET /customer.html [32m200 [0m6.301 ms - 1338[0m
+[0mGET /javascripts/app.js [32m200 [0m1.609 ms - 2408[0m
+[0mGET /products [32m200 [0m19.759 ms - 718[0m
+[0mGET /administrator.html [36m304 [0m1.085 ms - -[0m
+[0mGET /javascripts/app.js [32m200 [0m0.546 ms - 2408[0m
+[0mGET /products [32m200 [0m2.999 ms - 718[0m
+[0mGET /administrator.html [32m200 [0m2.519 ms - 1410[0m
+[0mGET /javascripts/app.js [32m200 [0m2.540 ms - 2408[0m
+[0mGET /products [32m200 [0m4.707 ms - 718[0m
+[0mGET /customer.html [31m500 [0m359.515 ms - 1934[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/midterm/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/midterm/app.js:56:7
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/midterm/app.js:45:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/index.js:330:12)
+[0mGET /administrator.html [31m500 [0m1.334 ms - 1934[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/midterm/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/midterm/app.js:56:7
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/midterm/app.js:45:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/index.js:330:12)
+[0mGET /customer.html [31m500 [0m1.932 ms - 1934[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/midterm/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/midterm/app.js:56:7
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/midterm/app.js:45:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/midterm/node_modules/express/lib/router/index.js:330:12)
